@@ -10,15 +10,18 @@ let correctAnswersCheckboxBtns = [
 
 //Tom array där användarens valda radiobutton svar sparas 
 let usersAnswRadioBtn = [];
+
 //Tom array där användarens valda checkbox button svar sparas
 let usersAnswCheckboxBtn = [];
-//Hämtar rätta quizzet knappen
+
+//Hämtar rätta quizet knappen
 let correctQuiz = document.querySelector("#submitBtn");
+
 //Variabel för att hålla koll på användarens poäng 
 let userPoints = 0;
 
 
-//Funktion som körs när man klickar på Rätta quizzet
+//Funktion som körs när man klickar på Rätta quizet
 correctQuiz.addEventListener("click", () => {
 
      let allRadioBtns = document.querySelectorAll(".radioBtnAnsw");
@@ -49,7 +52,7 @@ correctQuiz.addEventListener("click", () => {
      let correctAnswersCheckboxBtnsToString = correctAnswersCheckboxBtns.toString();
      let usersAnswCheckboxBtnToString = usersAnswCheckboxBtn.toString();
 
-     //Kollar om textsträngarna är lika och om de är det så plussa det på ett poäng
+     //Kollar om textsträngarna är lika och om de är det så plussas det på ett poäng
      if(correctAnswersCheckboxBtnsToString == usersAnswCheckboxBtnToString){
           userPoints++;
      };
@@ -71,7 +74,7 @@ correctQuiz.addEventListener("click", () => {
 
 let retryQuizBtn = document.querySelector("#replyQuiz");
 
-//Funktion som körs när "starta om quizzet" klickas på.
+//Funktion som körs när man klickar på "starta om quizet" knappen
 retryQuizBtn.addEventListener("click", () => {
      location.reload();
 }); 
