@@ -57,7 +57,7 @@ correctQuiz.addEventListener("click", () => {
      let quizResult = document.querySelector("#quizResult");
 
      //Kollar hur många poäng användaren fått och utefter antalet skriver ut olika texter med olika färger. 
-     if (userPoints > 7.5 && userPoints >= 10){
+     if (userPoints > 7.5 && userPoints <= 10){
           quizResult.innerText = "Du fick " + userPoints + " av 10 rätt.";
           quizResult.style.color = "green";
      }else if (userPoints > 5 && userPoints < 7.5){
@@ -80,8 +80,8 @@ let darkModeBtn = document.querySelector("#darkModeBtn");
 
 //Funktion som körs när man klickar på "mörkt läge" knappen
 darkModeBtn.addEventListener("click", () => {
-     document.querySelector("body").style.backgroundColor = "black";
-     document.querySelector("body").style.color = "magenta";
+     document.querySelector("body").style.backgroundColor = "rgb(40, 44, 43)";
+     document.querySelector("body").style.color = "rgb(59, 93, 165)";
      document.querySelector("#quizResult").style.backgroundColor = "white";
 }); 
 
@@ -92,6 +92,3 @@ lightModeBtn.addEventListener("click", () => {
      document.querySelector("body").style.backgroundColor = "white";
      document.querySelector("body").style.color ="black";
 }); 
-
-
-//! Göra snyggt och fint sen både i JS, CSS och HTML.
