@@ -1,30 +1,44 @@
+body {
+     background: #FFCAD4;
+     color: #665f5f;
+}
+
 #contentHeading {
-     font-family:'Courier New', Courier, monospace;
+     font-family: 'Arial', sans-serif;
      text-align: center;
      font-size: 40px;
+     font-weight: 300;
 }
 
 #content {
-     font-family: 'Courier New', Courier, monospace;
+     font-family: 'Arial', sans-serif;
      text-align: center;
 }
 
+.questions {
+     font-size: large;
+}
+
 #darkModeBtn {
-     color: rgb(59, 93, 165);
-     background-color: rgb(40, 44, 43);
-     font-family:'Courier New', Courier, monospace;
-     font-weight: bolder;
+     color: #ffffff;
+     background-color: #564138;
+     font-family: 'Arial', sans-serif;
      cursor: pointer;
      border-radius: 20px;
+     font-size: x-small;
+     padding: 5px 5px;
+     width: 10%;
 }
 
 #lightModeBtn {
-     color:black;
-     background-color: linen;
-     font-family:'Courier New', Courier, monospace;
-     font-weight: bolder;
+     color:#665f5f;
+     background-color: #b5e2f7;
+     font-family: 'Arial', sans-serif;
      cursor: pointer;
      border-radius: 20px;
+     font-size: x-small;
+     padding: 5px 5px;
+     width: 10%;
 }
 
 #buttonsMode {
@@ -37,22 +51,23 @@
 
 #submitBtn {
      width: 50%;
-     padding: 14px 28px;
+     padding: 9px 26px;
      font-size: large;
-     background-color: rgb(94, 151, 123);
+     background-color: #F7AF9D;
      color: white;
-     font-family:'Courier New', Courier, monospace;
+     font-family: 'Arial', sans-serif;
      cursor: pointer;
      border-radius: 20px;
 }
 
 #replyQuiz {
-     width: 20%;
-     padding: 5px 10px;
-     background-color: linen;
-     font-family: 'Courier New', Courier, monospace;
+     width: 30%;
+     padding: 10px 10px;
+     background-color: #9dcdd1;
+     color: #FFFFFF;
+     font-family: 'Arial', sans-serif;
      cursor: pointer;
-     font-size: medium;
+     font-size: small;
      border-radius: 20px;
 }
 

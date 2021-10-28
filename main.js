@@ -83,15 +83,14 @@ let darkModeBtn = document.querySelector("#darkModeBtn");
 
 //Funktion som körs när man klickar på "mörkt läge" knappen
 darkModeBtn.addEventListener("click", () => {
-     document.querySelector("body").style.backgroundColor = "rgb(40, 44, 43)";
-     document.querySelector("body").style.color = "rgb(59, 93, 165)";
-     document.querySelector("#quizResult").style.backgroundColor = "white";
+     document.querySelector("body").style.background = "#C08497";
+     document.querySelector("body").style.color = "#FFFFFF";
 }); 
 
 let lightModeBtn = document.querySelector("#lightModeBtn");
 
 //Funktion som körs när man klickar på "ljust läge" knappen
 lightModeBtn.addEventListener("click", () => {
-     document.querySelector("body").style.backgroundColor = "white";
-     document.querySelector("body").style.color ="black";
+     document.querySelector("body").style.backgroundColor = "#FFCAD4";
+     document.querySelector("body").style.color ="#665f5f";
 }); 

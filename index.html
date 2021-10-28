@@ -9,14 +9,14 @@
 </head>
 <body>
      <div id="buttonsMode">
-          <button id="darkModeBtn">Mörkt Läge</button>
-          <button id="lightModeBtn">Ljust Läge</button>
+          <button id="darkModeBtn">MÖRKT LÄGE</button>
+          <button id="lightModeBtn">LJUST LÄGE</button>
      </div>
      <h1 id="contentHeading">QUIZ OM MIG</h1>
      <div id="content">
           </label>
           <div id="oListWQuestions">
-               <h4>Hur gammal är jag?</h4>
+               <h4 class="questions">Hur gammal är jag?</h4>
                <input type="radio" name="question1" class="radioBtnAnsw" value="20 år">
                <label for="question1">20 år</label>
                <input type="radio" name="question1" class="radioBtnAnsw" value="30 år">
@@ -24,7 +24,7 @@
                <input type="radio" name="question1" class="radioBtnAnsw" value="24 år">
                <label for="question1">24 år</label>
                <br><br>
-               <h4>Vart bor jag?</h4>
+               <h4 class="questions">Vart bor jag?</h4>
                <input type="radio" name="question2" class="radioBtnAnsw" value="Solna">
                <label for="question2">Solna</label>
                <input type="radio" name="question2" class="radioBtnAnsw" value="Märsta">
@@ -32,7 +32,7 @@
                <input type="radio" name="question2" class="radioBtnAnsw" value="Södermalm">
                <label for="question2">Södermalm</label>
                <br><br>
-               <h4>Vart är jag uppvuxen?</h4>
+               <h4 class="questions">Vart är jag uppvuxen?</h4>
                <input type="radio" name="question3" class="radioBtnAnsw" value="Stockholm">
                <label for="question3">Stockholm</label>
                <input type="radio" name="question3" class="radioBtnAnsw" value="Dalarna">
@@ -40,7 +40,7 @@
                <input type="radio" name="question3" class="radioBtnAnsw" value="Göteborg">
                <label for="question3">Göteborg</label>
                <br><br>
-               <h4>Vem bor jag tillsammans med?</h4>
+               <h4 class="questions">Vem bor jag tillsammans med?</h4>
                <input type="radio" name="question4" class="radioBtnAnsw" value="Min syster"> 
                <label for="question4">Min syster</label>
                <input type="radio" name="question4" class="radioBtnAnsw" value="Min pojkvän">
@@ -48,7 +48,7 @@
                <input type="radio" name="question4" class="radioBtnAnsw" value="Min mamma">
                <label for="question4">Min mamma</label>
                <br><br>
-               <h4>Har jag något husdjur?</h4>
+               <h4 class="questions">Har jag något husdjur?</h4>
                <input type="radio" name="question5" class="radioBtnAnsw" value="Ja, en hund">
                <label for="question5">Ja, en hund</label>
                <input type="radio" name="question5" class="radioBtnAnsw" value="Ja, en katt">
@@ -56,7 +56,7 @@
                <input type="radio" name="question5" class="radioBtnAnsw" value="Nej men jag vill SÅ gärna ha ett...">
                <label for="question5">Nej men jag vill SÅ gärna ha ett...</label>
                <br><br>
-               <h4>Vad gjorde jag innan jag började plugga på Nackademin?</h4>
+               <h4 class="questions">Vad gjorde jag innan jag började plugga på Nackademin?</h4>
                <input type="radio" name="question6" class="radioBtnAnsw" value="Jobbade som butikssäljare på Åhlens">
                <label for="question6">Jobbade som butikssäljare på Åhlens</label>
                <input type="radio" name="question6" class="radioBtnAnsw" value="Jobbade som reklamationshandläggare på Entercard">
@@ -65,7 +65,7 @@
                <input type="radio" name="question6" class="radioBtnAnsw" value="Jobbade som bilförsäljare på Volkswagen">
                <label for="question6">Jobbade som bilförsäljare på Volkswagen</label>
                <br><br>
-               <h4>Vad är mitt favorit godis?</h4>
+               <h4 class="questions">Vad är mitt favorit godis?</h4>
                <input type="radio" name="question7" class="radioBtnAnsw" value="Choklad">
                <label for="question7">Choklad</label>
                <input type="radio" name="question7" class="radioBtnAnsw" value="Sura nappar">
@@ -73,7 +73,7 @@
                <input type="radio" name="question7" class="radioBtnAnsw" value="Godisråttor">
                <label for="question7">Godisråttor</label>
                <br><br>
-               <h4>Vad är min favoritmat?</h4>
+               <h4 class="questions">Vad är min favoritmat? (flera svarsalternativ kan vara rätt)</h4>
                <input type="checkbox" name="question8" class="checkboxBtnsAnsw" value="Allt min pojkvän lagar">
                <label for="question8">Allt min pojkvän lagar</label>
                <input type="checkbox" name="question8" class="checkboxBtnsAnsw" value="Hamburgare från Barells">
@@ -86,7 +86,7 @@
                <input type="checkbox" name="question8" class="checkboxBtnsAnsw" value="Fish taco">
                <label for="question8">Fish taco</label>
                <br><br>
-               <h4>Vad tittar jag helst på?</h4>
+               <h4 class="questions">Vad tittar jag helst på?</h4>
                <input type="radio" name="question9" class="radioBtnAnsw" value="Fotboll">
                <label for="question9">Fotboll</label>
                <input type="radio" name="question9" class="radioBtnAnsw" value="Dokumentärer om mord">
@@ -94,7 +94,7 @@
                <input type="radio" name="question9" class="radioBtnAnsw" value="Idol">
                <label for="question9">Idol</label>
                <br><br>
-               <h4>Vad gör jag helst?</h4>
+               <h4 class="questions">Vad gör jag helst?</h4>
                <input type="radio" name="question10" class="radioBtnAnsw" value="Går på ett träningspass på Sats">
                <label for="question10">Går på ett träningspass på Sats</label>
                <input type="radio" name="question10" class="radioBtnAnsw" value="Luktar på doftljus och scrollar Hemnet">
@@ -106,12 +106,12 @@
                <br>
           </div>
           <div>
-               <button id="submitBtn">Rätta Quizet</button>
-               <br>
-               <br>
-               <button id="replyQuiz">Starta Om Quizet</button>
-               <br>
                <h2 id="quizResult"></h2>
+               <br>
+               <button id="submitBtn">RÄTTA QUIZET</button>
+               <br>
+               <br>
+               <button id="replyQuiz">STARTA OM QUIZET</button>
           </div>
      </div>
      <script src="main.js"></script>
